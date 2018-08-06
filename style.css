@@ -88,3 +88,37 @@ footer {
 	color: #4aaaa5;
 	font-family: 'Times New Roman', Times, serif;
 }
+
+/* I need to add styling to part of the portfolio page. This is going to be the text under each picture -- to be honest, I was really stuck here, so I used the css from the harder assignment page, at the very least: I understand what this does. this makes the position of the marker absolute within this div, and we can place it exactly where it needs to go*/
+
+.col-4 {
+	margin: 20px;
+}
+
+.col-4 h3 {
+		background-color: #4aaaa5;
+		position: absolute;
+		bottom: 20px;
+		width: 100%;
+		padding: 15px;
+		margin-bottom: 0;
+		font-weight: 300;
+		line-height: 30px;
+		color: #fff;
+		text-align: center;
+		background: #4aaaa5;
+		border-bottom: 0;
+
+		/* I added this font-family */
+		font-family: 'Times New Roman', Times, serif;
+		
+		/* I also added a bit to the right to make the center teal block a bit more centered */
+		right: 4px;
+}
+
+
+/* I adde this ID in order to style the portfolio page title the correct way */
+#portfolioTitle {
+	color: #4aaaa5;
+	font-family: 'Times New Roman', Times, serif;
+}
