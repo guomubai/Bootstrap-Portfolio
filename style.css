@@ -1,0 +1,90 @@
+/* Here I set the background of the whole webstie, the pattern */
+body {
+	background-image: url(./images/oriental.png);
+	height: 100%;
+}
+
+
+/* I added this border box becaue it is pretty much in all of these bootstrap projects */
+* {
+	box-sizing: border-box;
+}
+
+/* I midified the bootstrap nav bar here  */
+.navbar {
+	background-color: #ffffff;
+	
+}
+
+/* I midified the bootstrap nav bar here  */
+.navbar-brand {
+	color: black;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 24px;
+	background-color: #4aaaa5;
+	height: 50px;
+	
+}
+
+/* making the navbar the right color */
+.navbar-nav {
+	color: #777777;
+}
+
+/* here I made the links. I could not figure out how to make the links grey. I tried a lot of ways, but nothing seems to work */
+li {
+	background-color: #777777;
+	color: black;
+}
+
+/* styling the footer */
+footer {
+	background-color: #666666;
+	padding: 30px 0;
+  color: #fff;
+  text-align: center;
+  border-top: 8px solid #4aaaa5;
+  height: 50px;
+}
+
+/* This is for making my picture right. I made sure to float it left so that I can make it go to the top right */
+
+.img-fluid {
+	height: 240px;
+	width: 320px;
+	float: left;
+	margin: 10px;
+}
+
+/* this is where I made the big qhite square in the middle where everything goes */
+.container {
+	background-color:#fff;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+/* Here I made sure to make the About me header the right color and the right font */
+.col-12 {
+	color: #4aaaa5;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+/* Styling the contact section on the contact page */
+
+/* I had to make the message area bigger than the default */
+
+#exampleFormControlTextarea1 {
+	height: 300px;
+}
+
+/* I also added a little white space at the bottom */
+.form-group {
+	padding-bottom: 20px;
+}
+
+/* I had to add an ID here becasue I was not sure how to modify this one alone */
+
+#contactHeader {
+	color: #4aaaa5;
+	font-family: 'Times New Roman', Times, serif;
+}
